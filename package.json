@@ -1,0 +1,23 @@
+{
+  "name": "natours",
+  "version": "1.0.0",
+  "description": "landing page for natours",
+  "homepage": "https://github.com/jnayush1994/natours#readme",
+  "bugs": {
+    "url": "https://github.com/jnayush1994/natours/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jnayush1994/natours.git"
+  },
+  "license": "ISC",
+  "author": "Ayush",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "node-sass": "^9.0.0"
+  }
+}
