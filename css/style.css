@@ -397,6 +397,9 @@ body {
     font-size: 1.7rem;
     text-align: center;
     opacity: 0; }
+  .storystory .story__caption {
+    opacity: 1;
+    transform: translateY(-50%); }
 
 .section-about {
   background-color: #f7f7f7;
