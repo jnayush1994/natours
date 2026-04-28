@@ -385,8 +385,9 @@ body {
     position: relative; }
   .story__img {
     height: 100%;
-    transform: translateX(-4rem);
-    backface-visibility: hidden; }
+    transform: translateX(-4rem) scale(1.4);
+    backface-visibility: hidden;
+    transition: all 0.5s; }
   .story__text {
     transform: skewX(12deg); }
   .story__caption {
@@ -405,7 +406,7 @@ body {
     opacity: 1;
     transform: translate(-50%, -50%); }
   .story:hover .story__img {
-    filter: blur(3px) brightness(80%); }
+    transform: translateX(-4rem) scale(1); }
 
 .section-about {
   background-color: #f7f7f7;
